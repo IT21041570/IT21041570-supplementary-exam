@@ -2,5 +2,5 @@
 
 ## Username @ password
 
-username - admin \n
-password - admin
+- username - admin
+- password - admin
