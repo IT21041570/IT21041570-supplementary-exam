@@ -2,7 +2,7 @@
 
 - NOTES is a simple note taking app wich is mainly target school and university students for keeping their quick notes of lectures and lessons.
 
-## Username @ password
+## Username & password
 
 - username - admin
 - password - admin
