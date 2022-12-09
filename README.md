@@ -21,7 +21,7 @@
 ### update notes
 - using 3 dots button we will able to update existing notes.
 
-### deliting notes
+### deleting notes
 - holding the note will show you option to delete the note.
 - if you hit the delete button, it wills show a confirmation box to validation.
 
