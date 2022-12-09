@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".EditNotes">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/updatenote"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/marks"
+        android:layout_margin="10dp"
+        android:hint="Update your note here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:lines="10"
+        android:maxLines="15"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbg"
+        android:padding="10dp"
+        android:text="Update"
+        android:textColor="#ffffff"
+        app:backgroundTint="@color/buttonbg" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbgcancel"
+        android:padding="10dp"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        app:backgroundTint="@color/buttonbgcancel" />
+
+</LinearLayout>
